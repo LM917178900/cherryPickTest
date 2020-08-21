@@ -7,7 +7,13 @@ cherry-pick 测试，
 4. cherry-pick 第一个分支上的一次提交到，分支二；
 
 
+commit-2 新增;
 
+commit-3 新增;
+
+commit-4 新增;
 
 commit-5 新增;
+
+
 commit-6 新增;
