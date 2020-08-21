@@ -19,5 +19,8 @@ commit-5 新增;
 commit-6 新增;
 
 
+test git pull --rebase;now ;let us test this function in git;
+
+
 
 commit-10 新增
