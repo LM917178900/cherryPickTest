@@ -16,7 +16,7 @@ APPLICATION_JAR="${APPLICATION}.jar"
 PID=$(ps -ef | grep ${APPLICATION_JAR} | grep -v grep | awk '{ print $2 }')
 #// 认证系统：ps -ef|grep mf-auth-center-server-1.0.0.jar |grep java|awk '{print $2}'
 #// uat系统：
-#//  -z "$PID" PID是否是null
+#//  -z "$PID" PID==null
 if [ -z "$PID" ]
 then
 #  // 如果PID是null,输出应用已经停止；

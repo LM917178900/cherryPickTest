@@ -1,0 +1,11 @@
+#GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+# 清空process索引下的数据
+#POST process/_delete_by_query
+{ "query": { "match_all": {} } }
+

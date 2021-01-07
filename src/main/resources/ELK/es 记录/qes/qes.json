@@ -1,0 +1,7 @@
+#POST qes/_search
+{ "query": { "match": {"file.filename":"CR工作量评估.xlsx"} } }
+
+#POST qes/_search
+{ "query": { "match": {"external.id":"QIM202009240063"} } }
+
+
